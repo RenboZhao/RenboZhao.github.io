@@ -1,0 +1,436 @@
+\documentclass[11pt]{article}
+%\usepackage[letterpaper,left=1in,right=1in,top=.8in,bottom=1in]{geometry}
+%\PassOptionsToPackage{hyphens}{url}
+\usepackage[T1,hyphens]{url}\def\UrlBreaks{\do\/\do-}
+\usepackage[colorlinks=true,bookmarks=false,urlcolor=blue,breaklinks=true]{hyperref}
+
+%\usepackage[hyphens]{url}
+%\usepackage[hyphenbreaks]{breakurl}
+\usepackage[letterpaper, top=2cm, bottom=1.8cm, left=1.8cm, right=1.8cm]{geometry}
+\usepackage{hyperref}
+\usepackage{changepage}
+
+\newcommand{\ICASSP}{IEEE Int.\ Conf.\ Acoust.\ Speech Signal Process.\ (ICASSP)}
+\newcommand{\AISTATS}{Int.\ Conf.\ Artif.\ Intell.\ Stat.\ (AISTATS)}
+\newcommand{\UAI}{Conf.\ Uncertain.\ Artif.\ Intell.\ (UAI)}
+\newcommand{\TSP}{IEEE Transactions on Signal Processing}
+\newcommand{\TIT}{IEEE Transactions Information Theory}
+\newcommand{\MOR}{Mathematics of Operations Research}
+\newcommand{\SIOPT}{SIAM Journal on Optimization}
+\newcommand{\JMLR}{Journal of Machine Learning Research}
+\newcommand{\MPA}{Mathematical Programming (Series A)}
+\newcommand{\COA}{Computational Optimization and Applications}
+\newcommand{\JOTA}{Journal of Optimization Theory and Applications}
+
+\begin{document}
+ 
+\begin{center}
+\textbf{Renbo Zhao}\\
+\end{center}
+
+% Contact Information
+\begin{minipage}[t]{0.5\textwidth}
+%Department of Electrical and Computer Engineering\\
+MIT Operations Research Center\\
+%Department of Mathematics\\
+%Massachusetts Institute of Technology\\
+77 Massachusetts Avenue\\
+Cambridge, MA, USA 02142
+%\#11-280, Block 432\\
+%Clementi Avenue 3\\
+%Singapore 120432
+\end{minipage}
+\hspace{.5cm}
+\begin{minipage}[t]{0.5\textwidth}
+\textbf{Telephone}: +1-857-999-6954\\
+\textbf{Email}: \href{mailto:}{\tt renboz@mit.edu}\\
+\textbf{Web}: \url{http://web.mit.edu/renboz/www/}
+%renbozhao@u.nus.edu
+\end{minipage} \newline\newline
+
+% Personal information
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Gender}\newline\newline
+%\textbf{Citizenship}\newline\newline
+%\textbf{Date of Birth}
+%\end{minipage}
+%\begin{minipage}[t]{0.75\textwidth}
+%Male\newline\newline
+%Chinese\newline\newline
+%3 May 1993
+%\end{minipage} \newline\newline
+
+% Research Interests
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Research\\ Interests}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+Theory and computational practice of {\bf large-scale optimization methods}, with applications in {\bf machine learning} and {\bf operations research}. Specific interests include:
+%.  Specifically, I focus on developing efficient first-order methods for large-scale convex and nonconvex optimization problems and minimax (saddle-point) problems that arise in data science applications.   %interests include%{\bf Large-scale optimization methods} and {\bf applied probability}, as well as their applications in {\bf operations research} and {\bf machine learning}. 
+%Specific interests include \vspace{-.5cm}
+\begin{itemize}\itemsep0em
+\item stochastic optimization and nonlinear optimization
+\item optimization under uncertainty
+\item online learning and reinforcement learning
+%\item fundamental limits of learning and optimization 
+\end{itemize}
+
+%\begin{itemize}
+%\item Online matrix factorization
+%\item Stochastic optimization
+%\item Distributed optimization
+%\end{itemize}
+%(Low-rank) Matrix Factorization, Stochastic Optimization, Online Learning,  Community Detection, Audio Signal Processing
+%Machine learning and its applications to audio signal processing and computer vision, Convex Optimization
+%Algorithms and applications of nonnegative matrix factorization, %Learning and inference in graphical models, 
+%Convex optimization and its applications, Computer vision and image processing, Audio Signal Processing
+\end{minipage} \newline\newline
+
+% Educational Background
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Education}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+{\bf Massachusetts Institute of Technology}\\
+{PhD in Operations Research}, September 2018 -- Present\vspace{-.2cm}
+\begin{itemize}
+\item { Thesis advisor}: {Robert M.\ Freund}
+\end{itemize}
+{\bf National University of Singapore}\\
+{M.Sc.\ in Mathematics}, August 2016 -- June 2018 \vspace{-0.2cm}
+\begin{itemize}
+\item { Thesis}: {Stochastic and Randomized Algorithms for Large-Scale  Optimization in Machine Learning}\vspace{-0.2cm}
+\item { Thesis advisors}: {Vincent Y.\ F.\ Tan and William B.\ Haskell}
+\end{itemize}
+{\bf National University of Singapore}\\
+{B.Eng.\ in Electrical Engineering} (First Class Honours),  August 2011 -- June 2015 \vspace{-0.2cm}
+\begin{itemize}
+\item { Thesis}: {Online Nonnegative Matrix Factorization with Outliers}\vspace{-0.2cm}
+\item { Thesis advisor}: {Vincent Y.\ F.\ Tan}
+\end{itemize}
+
+%{\bf Nanyang Technological University}\\
+%Undergraduate student exchange program, January 2014 -- May 2014
+%{\bf Jinan Foreign Language High School}\\
+%Sep 2008 $\sim$ June 2010
+\end{minipage} \newline\newline
+
+% Working Experience
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Research\\ Experiences}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.8\textwidth}
+
+JP Morgan Chase AI Research (NYC), {Research Intern}, Summer 2022
+\begin{itemize}
+\item Worked with Vamsi Potluru on efficiently solving optimization problems arising in %maximum-likelihood 
+inference of multi-dimensional Hawkes processes. 
+\end{itemize}
+
+Amazon.com (Seattle), {Research Intern}, Summer 2021
+\begin{itemize}
+\item Worked with Phillip Kriett and Georgios Patsakis on two-stage stochastic resource plan optimization problems. 
+\end{itemize}
+
+Microsoft AI Research (Redmond), {Research Intern}, Summer 2020
+\begin{itemize}
+\item Worked with Lin Xiao and Shiqian Ma on inexact Bregman augmented Lagrangian method and Bregman alternating direction method of multipliers for large-scale optimal transport problems. 
+\end{itemize}
+
+IBM AI Research (Yorktown Heights), {Research Intern}, Summer 2019%\\[.2ex]
+%Summer 2019.\ 
+\begin{itemize}
+\item Worked with Lior Horesh, Kenneth Clarkson and Sara Magliacane on Bayesian optimal experimental design for symbolic regression problems.
+\end{itemize}
+
+%\'Ecole Polytechnique F\'ed\'erale de Lausanne (EPFL), {Research Intern}, Summer 2017
+%\begin{itemize}
+%\item Worked with Volkan Cevher on primal-dual algorithms for stochastic three-composite convex minimization with a linear operator.
+%\end{itemize}
+\end{minipage}
+
+\newpage
+
+
+
+%National University of Singapore (NUS), {Research Engineer}, Jul.\ 2015 -- Aug.\ 2018
+%\begin{itemize}
+%\item Worked with William B.\ Haskell and Vincent Y.\ F.\ Tan on stochastic and randomized algorithms for large-scale optimization in machine learning.
+%\item Worked with Vincent Y.\ F.\ Tan and Huan Xu on machine learning algorithms for online matrix factorization  and ranking from pairwise comparisons. % in social networks.
+%\end{itemize}
+
+%\end{minipage}
+%\newpage
+
+
+
+% Awards
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Awards}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+2014, 2015: Innovation and Research Merit Award, Faculty of Engineering, NUS \newline\newline
+2013:\ ST Electronics Prize:\ Top sophomore student in Electrical Engineering\newline\newline
+2011 -- 2015: Dean's List, every semester throughout undergraduate studies\\\\ %(except Sem.\ 2, AY 
+Student Travel Grants: SIOP 2021, ICCOPT 2019, AISTATS 2017, UAI 2017  \newline\newline
+\end{minipage} 
+
+
+
+
+
+
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Published\\ Journal \\Papers}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+``Analysis of Frank-Wolfe Method for Logarithmically-Homogeneous Barriers, with an Extension'', Renbo Zhao and Robert M.\ Freund, arXiv:2010.08999, to appear in {\em \MPA}, Apr.\ 2022.\\[.2cm]
+``Accelerated Algorithms for Stochastic Three-Composite Convex-Concave Saddle Point Problems'', {Renbo Zhao}, %arXiv:1903.01687v2, 
+{\em \MOR}, Vol. 47, No. 2, Pages 1443 – 1473, May, 2022.\\[.2cm]
+``Stochastic L-BFGS: Improved Convergence Rates and Practical Acceleration Strategies'', {Renbo Zhao}, William B.\ Haskell and Vincent Y.\ F.\ Tan,   {\em \TSP}, Vol.\ 66, No.\ 5, Pages 1155–-1169, Mar.\ 2018. %Link: \url{http://ieeexplore.ieee.org/document/8219748/}.
+\\[.2cm]
+``A Unified Convergence Analysis of the Multiplicative Update Algorithm for Regularized Nonnegative Matrix Factorization'', {Renbo Zhao} and Vincent Y.\ F.\ Tan,  in {\em \TSP}, Vol.\ 66, No.\ 1, Pages 129–-138, Jan.\  2018. %Link: \url{http://ieeexplore.ieee.org/document/8052526/}. %, revised in Aug.\ 2017. ArXiv: \url{https://arxiv.org/abs/1609.00951}.
+\\[.2cm]
+``Adversarial Top-$K$ Ranking'', Changho Suh, Vincent Y.\ F.\ Tan and {Renbo Zhao},   in {\em \TIT}, Vol.\ 63, No.\ 4, Pages 2201–-2225, Apr.\ 2017. %Link: \url{http://ieeexplore.ieee.org/document/7835206/}.
+\\[.2cm]
+``Online Nonnegative Matrix Factorization with Outliers'', {Renbo Zhao} and Vincent Y.\ F.\ Tan,  in {\em \TSP}, Vol.\ 65, No.\ 3, Pages 555--570, Feb.\ 2017. %Link: \url{http://ieeexplore.ieee.org/document/7676413/}.
+\\%[.2cm]
+\end{minipage}
+
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Working\\ Papers}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+``An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems'', Le Thi Khanh Hien, {Renbo Zhao} and William B. Haskell, arXiv:1711.03669v3, submitted to {\em \JOTA}.\\[.2cm]
+``A Primal Dual Smoothing Framework for Max-Structured Nonconvex Optimization'', Renbo Zhao, arXiv:2003.04375, under second-round review at {\em \MOR}. \\[.2cm]
+%``An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems'', Le Thi Khanh Hien, {Renbo Zhao} and William B. Haskell, arXiv:1711.03669v3, under second round review at {\em \SIOPT}. %($^*$ denotes equal contribution.) \\[.2cm]
+%``Optimal Algorithms for Stochastic Three-Composite Convex-Concave Saddle Point Problems'', {Renbo Zhao}, arXiv:1903.01687v2, under second round review at {\em \MOR}.\\[.2cm]
+%``On the duality between relative smoothness and relative strong convexity'', {Renbo Zhao}, Robert M.\ Freund, in preparation. \\[.2cm]
+%``A Unified Smoothing Framework for Max-Type Nonconvex Minimization, with Applications to (Distributionally) Robust Learning'', {Renbo Zhao}, Robert M.\ Freund, in preparation. \\[.2cm]
+ %``Primal-Dual Algorithms for Relatively Smooth Convex-Concave Saddle-Point Problems'', {\bf Renbo Zhao} and Rebert M.\ Freund, in preparation, Oct.\ 2018. 
+%\\[.2cm]
+\end{minipage}
+
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Conference \\Proceedings}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+``An Optimal Algorithm for Stochastic Three-Composite Optimization'', {Renbo Zhao}, William B. Haskell and Vincent Y. F. Tan,  in {\em Proc.\ 22nd \AISTATS}, Okinawa, Japan, Apr.\ 2019.\\[.2cm] 
+``Stochastic Three-Composite Convex Minimization with a Linear Operator'', {Renbo Zhao} and Volkan Cevher, in {\em Proc.\ 21st \AISTATS},  Lanzarote,  Canary Islands, Spain, Apr.\ 2018.  %(Acceptance Rate: 33.2\%) %Link: \url{http://proceedings.mlr.press/v84/zhao18a.html}.
+\\[.2cm]
+``Stochastic L-BFGS Revisited: Improved Convergence Rates and Practical Acceleration Strategies'', {Renbo Zhao}, William B.\ Haskell and Vincent Y.\ F.\ Tan, in {\em Proc.\ 33rd \UAI}, Sydney, Australia, Aug.\ 2017. %(Acceptance Rate: 30.9\%) %Link: \url{http://auai.org/uai2017/proceedings/papers/86.pdf}.
+\\[.2cm]
+``Online Nonnegative Matrix Factorization with General Divergences'', {Renbo Zhao}, Vincent Y.\ F.\ Tan and Huan Xu, in {\em Proc.\ 20th \AISTATS}, Pages 37--45, Fort Lauderdale, FL, USA, Apr.\ 2017.  %(Acceptance Rate: 31.7\%) %Link: \url{http://proceedings.mlr.press/v54/zhao17a.html}.
+\\[.2cm]
+\end{minipage}
+
+
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{\phantom{Conference \\Proceedings}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.79\textwidth}
+``A Unified Convergence Analysis of the Multiplicative Update Algorithm for Nonnegative Matrix Factorization'', {Renbo Zhao} and Vincent Y.\ F.\ Tan, in {\em Proc.\ 42nd \ICASSP}, Pages 2562--2566, New Orleans, LA, USA, Mar.\ 2017. %Link: \url{http://ieeexplore.ieee.org/document/7952619/}.
+\\[.2cm]
+``Online Nonnegative Matrix Factorization with Outliers'', {Renbo Zhao} and Vincent Y.\ F.\ Tan, in  {\em Proc.\ 41st \ICASSP}, Pages 2662--2666, Shanghai, China, Mar.\ 2016. %Link: \url{http://ieeexplore.ieee.org/document/7472160/}.
+\\[.2cm]
+%Changho Suh, Vincent Y. F. Tan and {\bf Renbo Zhao}, ``Adversarial Top-K Ranking'', Information Theory and Applications Workshop, February, 2016. \\
+``Soft Constrained Leading Voice Separation with Music Score Guidance'', {Renbo Zhao}, Siu Wa Lee, Dong-Yan Huang and Minghui Dong, in {\em Proc.\ 9th ISCA/IEEE Int.\ Symp.\ Chin.\ Spok.\ Lang.\ Process.\ (ISCSLP)}, Pages 565--569, Singapore, Sep.\ 2014. %Link: \url{http://ieeexplore.ieee.org/document/6936723/}.
+%\newline\newline
+\end{minipage} \newline\newline
+
+% Competitions & Challenges
+%\begin{minipage}[t]{0.18\textwidth}
+%{\bf Competitions \\\& Challenges}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%{\em Third Place} (11 finalists), Audio Onset Detection Task. Zhengchen Zhang, Dong-Yan Huang, {\bf Renbo Zhao} and Minghui Dong, ``Onset Detection Based on Fusion of SIMPLS and SuperFlux''. Music Information Retrieval Evaluation eXchange (MIREX), Brazil, Nov.\ 2013. \newline\newline
+%%[\href{http://www.music-ir.org/mirex/abstracts/2013/ZHZD1.pdf}{Algorithm}][\href{http://nema.lis.illinois.edu/nema_out/mirex2013/results/aod/}{Link}]
+%{\em First Place}, Engineering Electromagnetics Challenge in module EE2011 (taken by 200+ students), National University of Singapore, Oct.\ 2012.
+%\end{minipage} \newline\newline
+
+% Professional Services
+
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Teaching}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%Teaching assistant for
+%\begin{itemize}
+%\item Fall 2019: The Analytics Edge
+%\begin{itemize}
+%\item Section A: Business Analytics for MBA (and other Sloan Master programs)
+%\item Section B: Core Course for Master in Business Analytics (MBAn)
+%\end{itemize}
+%\end{itemize}
+%    
+%Mentor for
+%\begin{itemize}
+%\item Spring 2019: Capstone Project of MBAn students (Company: TripAdvisor)
+%\end{itemize}
+%\end{minipage}
+%\vspace{.5cm}
+
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Talks}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+%\begin{itemize}
+%\item 
+{\em Analysis of the Frank-Wolfe Method for Logarithmically-Homogeneous Barriers}
+\begin{itemize}
+\item SIAM Conference on Optimization, Virtual, Jul.\ 2021
+\item MLO Group meeting, Microsoft Research (Redmond), Virtual, Sep. 2020
+\end{itemize}
+    
+
+
+
+{\em A Primal Dual Smoothing Framework for Max-Structured Nonconvex Optimization}
+\begin{itemize}
+\item INFORMS Annual Meeting, Virtual, Nov.\ 2020 
+\end{itemize}
+
+{\em Optimal Stochastic Algorithms for Convex-Concave Saddle Point Problems} 
+\begin{itemize}
+\item INFORMS Annual Meeting, Seattle, WA, Oct.\ 2019
+\item Department of ISEM, NUS, Singapore, May 2019
+\item RPI Applied Math Days, Troy, NY, Apr.\ 2019
+\end{itemize}
+    
+
+
+
+{\em An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems}
+\begin{itemize}
+\item INFORMS Annual Meeting, Seattle, WA, Oct.\ 2019 
+\item MIT LIDS Student Conference, Jan.\ 2019
+\end{itemize}
+
+{\em An Optimal Algorithm for Stochastic Three-Composite Optimization}
+\begin{itemize}
+\item International Symposium on Mathematical Programming (ISMP), Bordeaux, France, Jul.\ 2018
+\item INFORMS Annual Meeting, Phoenix, Arizona, Nov.\ 2018
+%\end{itemize}
+\end{itemize}
+\end{minipage}
+\vspace{.5cm}
+
+
+\begin{minipage}[t]{0.18\textwidth}
+\textbf{Professional \\Activities}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+%Member, IEEE Eta Kappa Nu (IEEE-HKN)\\
+Student Member, INFORMS, IEEE\\\\
+%Student Member, IEEE\\\\
+Session Chair: INFORMS Annual Meeting 2019\\\\
+Reviewer: {\em \MPA}, {\em \SIOPT}, {\em \JOTA}, {\em \JMLR}, {\em \COA}, {\em \TSP} %, {\em IEEE Journal of Selected Topics in Signal Processing}, {\em IEEE Signal Processing Letters}
+%\item Conferences: IEEE Int.\ Symposium on Information Theory (2016 -- 2017), IEEE Int.\ Conference on Acoustics, Speech and Signal Processing (2017 -- 2018)
+\end{minipage} \newline\newline
+
+
+% Memberships
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Memberships}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%Member, IEEE\\
+%Member, IEEE Signal Processing Society\\
+%Member, IEEE Eta Kappa Nu (IEEE-HKN)
+%\end{minipage} \newline\newline
+
+
+
+% Computer Skills
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Computer\\ Skills}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%Python, MATLAB, R, Julia 
+%\end{minipage} \newline\newline
+
+% Graduate Modules
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Graduate Modules \\Pretaken}
+%\end{minipage}
+%\begin{minipage}[t]{0.75\textwidth}
+%EE5137R $\quad$ Stochastic Processes\\
+%EE5138R $\quad$ Convex Optimization for Communication Systems\\
+%EE5139R $\quad$ Information Theory for Communication Systems\\\\
+%(All graduate modules are completed with grade A+, the highest grade in the grading system.)
+%\end{minipage} \newline\newline
+
+% Languages
+\begin{minipage}[t]{0.18\textwidth}
+{\bf Languages}
+\end{minipage}
+\begin{minipage}[t]{0.8\textwidth}
+English (bilingual and biliterate), Chinese (native)
+\end{minipage} %\newline\newline
+
+%\begin{minipage}[t]{0.18\textwidth}
+%{\bf Personal\\ Interests}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%Cooking, Kayaking, Table Tennis
+%\end{minipage}
+
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{References}
+%\end{minipage}
+%\begin{minipage}[t]{0.75\textwidth}
+%Available upon request. 
+%\end{minipage}
+
+% Publications
+%\newpage
+%\appendix
+%\center{\bf\large Appendix: Renbo Zhao's Publications}\\[.3cm]
+
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Preprints}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%{\bf Renbo Zhao}, William B. Haskell and Vincent Y. F. Tan, ``An Optimal Algorithm for Stochastic Three-Composite Optimization'', submitted, Oct.\ 2018.\\[.2cm] 
+%Le Thi Khanh Hien$^*$, {\bf Renbo Zhao}$^*$ and William B. Haskell, ``An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems'', submitted, Jul.\ 2018. ($^*$ denotes equal contribution.) % to {\em SIAM J. Optim.}, Mar.\ 2018. 
+%%Link: \url{https://arxiv.org/abs/1711.03669}.%\\[.2cm]
+%%{\bf Renbo Zhao} and Volkan Cevher, ``Stochastic Three-Composite Convex Minimization with a Linear Operator'', to be submitted, 2018. 
+% %under review, 2017. Link: \url{http://www.math.nus.edu.sg/~e0011549/02-SIOPT.pdf}.%to be submitted to {\em SIAM J. Optim.}, Oct.\ 2017. %Link: \url{https://arxiv.org/abs/1711.xxxxx}
+%\\[.2cm]
+%%{\bf Renbo Zhao}, William B.\ Haskell and Jiashi Feng, ``A Unified Framework for Stochastic Matrix Factorization via Variance Reduction'', Technical Report, May, 2017. ArXiv: \url{https://arxiv.org/abs/1705.06884}.\\[.2cm]
+%%{\bf Renbo Zhao}, Vincent Y. F. Tan and Huan Xu, ``Online Nonnegative Matrix Factorization with General Divergences'', submitted to {\em AISTATS'17}, Sep. 2016. { ArXiv:} \url{http://arxiv.org/abs/1608.00075}. \\
+%\end{minipage}
+%
+%
+%
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{Conference \\Proceedings}
+%\end{minipage}
+%\begin{minipage}[t]{0.8\textwidth}
+%{\bf Renbo Zhao} and Volkan Cevher, ``Stochastic Three-Composite Convex Minimization with a Linear Operator'', in {\em Proc.\ 21st \AISTATS},  Lanzarote,  Canary Islands, Spain, Apr.\ 2018.  (Acceptance Rate: 33.2\%) %Link: \url{http://proceedings.mlr.press/v84/zhao18a.html}.
+%\\[.2cm]
+%{\bf Renbo Zhao}, William B.\ Haskell and Vincent Y.\ F.\ Tan, ``Stochastic L-BFGS Revisited: Improved Convergence Rates and Practical Acceleration Strategies'', in {\em Proc.\ 33rd \UAI}, Sydney, Australia, Aug.\ 2017. (Acceptance Rate: 30.9\%) %Link: \url{http://auai.org/uai2017/proceedings/papers/86.pdf}.
+%\\[.2cm]
+%{\bf Renbo Zhao}, Vincent Y.\ F.\ Tan and Huan Xu, ``Online Nonnegative Matrix Factorization with General Divergences'', in {\em Proc.\ 20th \AISTATS}, Pages 37--45, Fort Lauderdale, FL, USA, Apr.\ 2017.  (Acceptance Rate: 31.7\%) %Link: \url{http://proceedings.mlr.press/v54/zhao17a.html}.
+%\\[.2cm]
+%{\bf Renbo Zhao} and Vincent Y.\ F.\ Tan, ``A Unified Convergence Analysis of the Multiplicative Update Algorithm for Nonnegative Matrix Factorization'', in {\em Proc.\ 42nd \ICASSP}, Pages 2562--2566, New Orleans, LA, USA, Mar.\ 2017. %Link: \url{http://ieeexplore.ieee.org/document/7952619/}.
+%\\[.2cm]
+%{\bf Renbo Zhao} and Vincent Y.\ F.\ Tan, ``Online Nonnegative Matrix Factorization with Outliers'', in  {\em Proc.\ 41st \ICASSP}, Pages 2662--2666, Shanghai, China, Mar.\ 2016. %Link: \url{http://ieeexplore.ieee.org/document/7472160/}.
+%\\[.2cm]
+%%Changho Suh, Vincent Y. F. Tan and {\bf Renbo Zhao}, ``Adversarial Top-K Ranking'', Information Theory and Applications Workshop, February, 2016. \\
+%{\bf Renbo Zhao}, Siu Wa Lee, Dong-Yan Huang and Minghui Dong, ``Soft Constrained Leading Voice Separation with Music Score Guidance'', in {\em Proc.\ 9th ISCA/IEEE Int.\ Symp.\ Chin.\ Spok.\ Lang.\ Process.\ (ISCSLP)}, Pages 565--569, Singapore, Sep.\ 2014. %Link: \url{http://ieeexplore.ieee.org/document/6936723/}.
+%%\newline\newline
+%\end{minipage} \newline\newline
+
+
+
+
+% References
+%\begin{minipage}[t]{0.18\textwidth}
+%\textbf{References}
+%\end{minipage}
+%\begin{minipage}[t]{0.75\textwidth}
+%Available on request 
+%\end{minipage} 
+
+\end{document}

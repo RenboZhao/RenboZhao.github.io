@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{talks.html}, nofooter, title{Talks}
+\n
+.  An Away-step Frank-Wolfe Method for Convex Optimization Involving a Log-Homogeneous Barrier \[[ASFW_slides.pdf slides]\] \n
+.. INFORMS Annual Meeting, Oct. 2023
+.. MOPTA, Lehigh University, Aug. 2023
+.. SIAM Conference on Optimization, Seattle, WA, June 2023
+. First-Order Methods for Differentiable "Nonsmooth" Convex Optimization: A Tale of Frank-Wolfe and Multiplicative-Gradient \[[RPI_talk.pdf slides]\] \n
+.. RPI, Department of Mathematical Sciences, Dec. 2022
+.. University of Iowa, Department of Business Analytics, Nov. 2022
+.. Clemson University, Operations Research Seminar, Sept. 2022
+. The Multiplicative Gradient Method: When and Why It Works? \[[MG_EJA.pdf slides]\] \n
+.. International Symposium on Mathematical Programming (ISMP), Montreal, Canada, Jul. 2024
+.. University of Waterloo, Workshop on Large Scale Optimization and Applications, Oct. 2022
+.. International Conference on Continuous Optimization, Lehigh University, July 2022
+.. INFORMS Optimization Society Conference, Greenville, SC, Mar. 2022
+. Analysis of the Frank-Wolfe Method for Convex Composite Optimization involving a Logarithmically-Homogeneous Barrier \[[FW.pdf slides]\] \n
+.. INFORMS Annual Meeting, Oct. 2022
+.. SIAM Conference on Optimization, Jul. 2021
+.. MLO Group meeting, Microsoft Research Redmond, Sep. 2020
+. A Primal Dual Smoothing Framework for Max-Structured Nonconvex Optimization \[[Nonconvex_Smoothing.pdf slides]\] \n
+.. INFORMS Annual Meeting, Nov. 2020 
+. Optimal Stochastic Algorithms for Convex-Concave Saddle Point Problems \[[AccPD3CM.pdf slides]\]\n
+#.. International Conference on Continuous Optimization (ICCOPT), Berlin, Germany, Aug. 2019
+.. INFORMS Annual Meeting, Seattle, WA, Oct. 2019 
+.. Department of ISEM, NUS, Singapore, May 2019
+.. RPI Applied Math Days, Troy, NY, Apr. 2019
+. An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems  \[[IPDS_Renbo.pdf slides]\]\n
+.. INFORMS Annual Meeting, Seattle, WA, Oct. 2019 
+.. MIT LIDS Student Conference, Cambridge, MA, Jan. 2019
+. An Optimal Algorithm for Stochastic Three-Composite Optimization \[[INFORMS_Renbo_Zhao.pdf slides]\]\n
+.. INFORMS Annual Meeting, Phoenix, AZ, Nov. 2018    
+.. International Symposium on Mathematical Programming (ISMP), Bordeaux, France, Jul. 2018
+
+
+    
+

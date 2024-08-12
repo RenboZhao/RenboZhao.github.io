@@ -1,0 +1,83 @@
+# jemdoc: menu{MENU}{index.html}, nofooter, title{Renbo Zhao}
+== Renbo Zhao
+
+~~~
+{}{img_left}{photo.png}{Photo}{252}{336}{}
+Assistant Professor,\n 
+[https://tippie.uiowa.edu/about/business-analytics-department/ Department of Business Analytics],\n 
+[https://tippie.uiowa.edu/ Tippie College of Business],\n
+[https://uiowa.edu/ University of Iowa]\n\n
+
+Address:\n
+108 John Pappajohn Business Building \n
+Iowa City, IA 52242\n\n
+
+
+Email: renbo-zhao AT uiowa DOT edu\n\n
+   
+
+[CV-rz-v2.pdf Curriculum Vitae (CV)]~~~~~~[https://scholar.google.com.sg/citations?user=gi_G33wAAAAJ&hl=en Google Scholar]
+~~~
+
+== Research Interests
+Theory and computational practice for *continuous optimization algorithms*, with applications in 
+*machine learning*, *data science* and *operations management*. 
+# My recent  research is on optimization algorithms for  convex, nonconvex and stochastic optimization. 
+
+#Looking ahead I am eager to explore topics in optimization under 
+#uncertainty, online learning, and reinforcement learning. \n\n
+#My publications can be found [http://web.mit.edu/renboz/www/pub.html here].
+
+
+== Professional Experience
+- *Assistant Professor*, [https://tippie.uiowa.edu/ Tippie College of Business], [https://uiowa.edu/ University of Iowa], Aug. 2023 -- Present
+- *Research Intern*, [https://www.jpmorgan.com/technology/artificial-intelligence/ JP Morgan Chase AI], NY, USA, July 2022 -- Aug. 2022\n
+#Supervisor: [https://scholar.google.com/citations?hl=en&user=uC_8kekAAAAJ&view_op=list_works&sortby=pubdate Vamsi K. Potluru]
+- *Research Intern*, [https://www.amazon.jobs/en/teams/scot/ Amazon], WA, USA, June 2021 -- Aug. 2021\n
+#Supervisor: [https://www.linkedin.com/in/phillip-kriett-30534b63/ Phillip Kriett]
+- *Research Intern*, [https://www.microsoft.com/en-us/research/lab/microsoft-research-ai/ Microsoft Research AI], WA, USA, June 2020 -- Aug. 2020\n
+#Supervisor: [https://linxiaolx.github.io/index.html Lin Xiao]
+- *Research Intern*, [http://research.ibm.com/labs/watson/ IBM T. J. Waston Research Center], NY, USA, June 2019 -- Aug. 2019\n
+#Supervisor: [https://researcher.watson.ibm.com/researcher/view.php?person=us-lhoresh Lior Horesh]
+- *Research Intern*, [https://www.epfl.ch/ EPFL], Switzerland, June 2017 -- Aug. 2017\n
+#Supervisor: [https://people.epfl.ch/volkan.cevher?lang=en Volkan Cevher]
+- *Research Engineer*, [http://www.nus.edu.sg/ NUS], Singapore, July 2015 -- Aug. 2018\n
+#Supervisors: [https://www.ece.nus.edu.sg/stfpage/vtan/index.htm Vincent Y. F. Tan], [https://www.wbhaskell.com/ William B. Haskell] and [https://sites.gatech.edu/huan-xu/biography/ Huan Xu]
+
+== Education
+- *PhD in Operations Research*, Sept. 2018 -- June 2023\n
+[http://web.mit.edu/ Massachusetts Institute of Technology], Cambridge, MA, USA\n
+Thesis: New Theory and Algorithms for Optimization Problems with Non-Standard Structures \n
+Thesis advisor: [http://mitmgmtfaculty.mit.edu/rfreund/ Robert M. Freund]
+- *Master of Science in Mathematics*, Aug. 2016 -- June 2018\n
+[http://www.nus.edu.sg/ National University of Singapore], Singapore\n
+Thesis: Stochastic and Randomized Algorithms for Large-Scale Optimization in Machine Learning\n
+Thesis advisors: [https://www.ece.nus.edu.sg/stfpage/vtan/index.htm Vincent Y. F. Tan] and [https://www.wbhaskell.com/ William B. Haskell]
+- *Bachelor of Engineering in Electrical Engineering*, Aug. 2011 -- June 2015\n
+[http://www.nus.edu.sg/ National University of Singapore], Singapore\n
+Thesis: Online Nonnegative Matrix Factorization with Outliers\n
+Thesis advisor: [https://www.ece.nus.edu.sg/stfpage/vtan/index.htm Vincent Y. F. Tan] 
+
+
+
+
+#- *Research Intern*, [https://www.jpmorgan.com/technology/artificial-intelligence/ JP Morgan Chase AI], NY, USA, July 2022 -- Aug. 2022\n
+#Supervisor: [https://scholar.google.com/citations?hl=en&user=uC_8kekAAAAJ&view_op=list_works&sortby=pubdate Vamsi K. Potluru]
+#- *Research Intern*, [https://www.amazon.jobs/en/teams/scot/ Amazon], WA, USA, June 2021 -- Aug. 2021\n
+#Supervisor: [https://www.linkedin.com/in/phillip-kriett-30534b63/ Phillip Kriett]
+#- *Research Intern*, [https://www.microsoft.com/en-us/research/lab/microsoft-research-ai/ Microsoft Research AI], WA, USA, June 2020 -- Aug. 2020\n
+#Supervisor: [https://linxiaolx.github.io/index.html Lin Xiao]
+#- *Research Intern*, [http://research.ibm.com/labs/watson/ IBM T. J. Waston Research Center], NY, USA, June 2019 -- Aug. 2019\n
+#Supervisor: [https://researcher.watson.ibm.com/researcher/view.php?person=us-lhoresh Lior Horesh]
+#- *Research Intern*, [https://www.epfl.ch/ EPFL], Switzerland, June 2017 -- Aug. 2017\n
+#Supervisor: [https://people.epfl.ch/volkan.cevher?lang=en Volkan Cevher]
+#- *Research Engineer*, [http://www.nus.edu.sg/ NUS], Singapore, July 2015 -- Aug. 2018\n
+#Supervisors: [https://www.ece.nus.edu.sg/stfpage/vtan/index.htm Vincent Y. F. Tan], [https://www.wbhaskell.com/ William B. Haskell] and [https://sites.gatech.edu/huan-xu/biography/ Huan Xu]
+
+
+
+#== Professional Service
+#- *Session Chair & Co-Chair*: INFORMS 2022, ICCOPT 2022, SIAM Conference on Optimization 2021, INFORMS 2019
+#- *Reviewer*: Mathematical Programming, SIAM Journal on Optimization, Journal of Optimization Theory and Applications, Computational Optimization and Applications, 
+#Journal of Machine Learning Research, IEEE Transactions on Signal Processing, NeurIPS Conference
+

@@ -1,0 +1,40 @@
+# jemdoc: menu{MENU}{coursework.html}, nofooter, title{Coursework}
+\n
+A number of graduate courses that I have attended in MIT and NUS are listed below.\n
+#Courses marked with \* are graduate courses. \n
+#Courses marked with (T) will be taken in Sem 2, AY 17/18. 
+== Optimization
+- *15.084/6.252* Nonlinear Optimization
+- *6.251/15.081*  Introduction to Mathematical Programming
+- *IE6001* Foundations of Optimization  
+- *MA5243* Advanced Mathematical Programming
+- *EE5138R* Convex Optimization
+
+
+== Probability and Statistics
+#- *MA2108* Mathematical Analysis I
+#- *MA3110* Mathematical Analysis II
+#- *MA3209* Mathematical Analysis III (audited)
+#- *MA4262* Measure and Integration (audited)
+- *9.520/6.860* Statistical Learning Theory and Applications
+- *18.S998* Mathematical Statistics: A Non-Asymptotic Approach
+- *18.615* Introduction to Stochastic Processes
+- *6.436/15.085*  Fundamentals of Probability
+- *EE5137R* Stochastic Processes
+- *EE5139R* Information Theory
+- *ST5242* Spatial and Functional Data Analysis 
+
+ #for Communication Systems
+ #for Communication Systems
+
+== Microeconomics and Game Theory
+- *14.121* Microeconomic Theory I
+- *14.122* Microeconomic Theory II
+
+#== Other Courses
+#- *MA5233*\* Computational Mathematics #(Numerical Analysis)
+#- *MA5232*\* Modeling and Numerical Simulations 
+#- *MA5268*\* Theory and Algorithms for Nonlinear Optimization 
+
+
+#- *BDC6112*\* Stochastic Processes (Different syllabus from EE5137R)

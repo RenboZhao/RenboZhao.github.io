@@ -1,0 +1,77 @@
+# jemdoc: menu{MENU}{pub.html}, nofooter, title{Publications}
+\n
+This page shows a selected list of my preprints and published journal and conference papers.\n
+Note: * denotes equal contribution.
+
+== Preprints
+. [https://arxiv.org/abs/2405.14143 A Geometric Perspective on the Closed Convex Hull of Some Spectral Sets]\n
+Renbo Zhao\n
+Working paper, May 2022
+. [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617620 Dynamic Learning Policy for Multi-Warehouse Multi-Store Systems with Censored Demands]\n
+Sentao Miao, Yining Wang and Renbo Zhao\n
+Submitted, Oct. 2023
+. [https://arxiv.org/abs/2207.13198 The Generalized Multiplicative Gradient Method and Its Convergence Rate Analysis]\n
+Renbo Zhao\n
+Working paper, July 2022
+
+
+== Journal Papers
+. [https://arxiv.org/abs/2305.17808 An Away-Step Frank-Wolfe Method for Minimizing Logarithmically-Homogeneous Barriers]\n
+Renbo Zhao\n
+/Mathematics of Operations Research/, minor revision, 2024
+. [https://arxiv.org/abs/1711.03669 An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems]\n
+Le Thi Khanh Hien\*, Renbo Zhao\* and William B. Haskell\n
+/Journal of Optimization Theory and Applications/, to appear, 2024
+. [https://arxiv.org/abs/2003.04375 A Primal-Dual Smoothing Framework for Max-Structured Nonconvex Optimization]\n
+Renbo Zhao\n
+/Mathematics of Operations Research/, to appear, 2024
+. [https://link.springer.com/article/10.1007/s10107-022-01820-9  Analysis of the Frank-Wolfe Method for Convex Composite Optimization involving a Logarithmically-Homogeneous Barrier]\n
+Renbo Zhao and Robert M. Freund\n
+/Mathematical Programming (Series A)/, Vol. 199, No. 1 -- 2, Pages 123 -- 163, 2023
+. [https://arxiv.org/abs/2109.05601 Convergence Rate Analysis of the Multiplicative Gradient Algorithm for PET-Type Problems]\n
+Renbo Zhao\n
+/Operations Research Letters/, Vol. 51, No. 1, Pages 26 -- 32, 2023
+. [https://link.springer.com/article/10.1007/s11590-022-01951-0 A Generalized Frank-Wolfe Method With "Dual Averaging" for Strongly Convex Composite Optimization]\n
+Renbo Zhao and Qiuyun Zhu\n
+/Optimization Letters/, Vol. 17, No. 7, Pages 1595 -- 1611, 2023
+. [https://pubsonline.informs.org/doi/abs/10.1287/moor.2021.1175?journalCode=moor Accelerated Stochastic Algorithms for Convex-Concave Saddle Point Problems]\n
+Renbo Zhao\n
+/Mathematics of Operations Research/,  Vol. 47, No. 2, Pages 1443 -- 1473, 2022
+. [http://ieeexplore.ieee.org/document/8219748/ Stochastic L-BFGS: Improved Convergence Rates and Practical Acceleration Strategies]\n
+Renbo Zhao, William B. Haskell and Vincent Y. F. Tan \n
+/IEEE Transactions on Signal Processing/, Vol. 66, No. 5, Pages 1155 -- 1169,  2018 
+. [http://ieeexplore.ieee.org/document/8052526/ A Unified Convergence Analysis of the Multiplicative Update Algorithm for Regularized Nonnegative Matrix Factorization] \n
+Renbo Zhao and Vincent Y. F. Tan\n 
+/IEEE Transactions on Signal Processing/, Vol. 66, No. 1, Pages 129 -- 138,  2018
+. [http://ieeexplore.ieee.org/document/7835206/ Adversarial Top-/K/ Ranking] \n
+Changho Suh, Vincent Y. F. Tan and Renbo Zhao\n
+/IEEE Transactions on Information Theory/, Vol. 63, No. 4, Pages 2201 -- 2225,  2017
+. [http://ieeexplore.ieee.org/document/7676413/ Online Nonnegative Matrix Factorization with Outliers] \n
+Renbo Zhao and Vincent Y. F. Tan\n
+/IEEE Transactions on Signal Processing/, Vol. 65, No. 3, Pages 555 -- 570, 2017
+
+== Conference and Workshop Proceedings
+. [https://ai-finance.org/icaif-23-accepted-papers/ Efficient Event Series Data Modeling via First-Order Constrained Optimization] \n
+Niccolo Dalmasso\*, Renbo Zhao\*, Mohsen Ghassemi, Vamsi K. Potluru, Tucker Balch, Manuela Veloso\n
+/ACM International Conference on AI in Finance (ICAIF)/, Nov., 2023
+. [http://proceedings.mlr.press/v89/zhao19a.html An Optimal Algorithm for Stochastic Three-Composite Optimization]\n
+Renbo Zhao, William B. Haskell and Vincent Y. F. Tan \n
+/International Conference on Artificial Intelligence and Statistics (AISTATS)/, Apr., 2019
+. [http://proceedings.mlr.press/v84/zhao18a.html Stochastic Three-Composite Convex Minimization with a Linear Operator] \n
+Renbo Zhao and Volkan Cevher\n
+/International Conference on Artificial Intelligence and Statistics (AISTATS)/, Apr., 2018 #*(Acceptance Rate: 33.2%)*
+. [http://auai.org/uai2017/accepted.php Stochastic L-BFGS Revisited: Improved Convergence Rates and Practical Acceleration Strategies] \n
+Renbo Zhao, William B. Haskell and Vincent Y. F. Tan \n
+/Conference on Uncertainty in Artificial Intelligence (UAI)/, Aug., 2017 #*(Acceptance Rate: 30.9%)*
+. [http://proceedings.mlr.press/v54/zhao17a.html Online Nonnegative Matrix Factorization with General Divergences] \n
+Renbo Zhao, Vincent Y. F. Tan and Huan Xu\n
+/International Conference on Artificial Intelligence and Statistics (AISTATS)/, Apr., 2017 #*(Acceptance Rate: 31.7%)*
+. [http://ieeexplore.ieee.org/document/7952619/ A Unified Convergence Analysis of the Multiplicative Update Algorithm for Nonnegative Matrix Factorization] \n
+Renbo Zhao and Vincent Y. F. Tan\n
+/IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)/, Mar., 2017
+. [http://ieeexplore.ieee.org/document/7472160/ Online Nonnegative Matrix Factorization with Outliers]\n
+Renbo Zhao and Vincent Y. F. Tan \n
+/IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)/, Mar., 2016
+. [http://ieeexplore.ieee.org/document/6936723/ Soft Constrained Leading Voice Separation with Music Score Guidance]\n
+Renbo Zhao, Siu Wa Lee, Dong-Yan Huang and Minghui Dong \n
+/ISCA\/IEEE International Symposium on Chinese Spoken Language Processing (ISCSLP)/, Sep., 2014
