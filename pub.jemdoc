@@ -10,10 +10,7 @@ Working paper, Mar. 2026
 . [https://arxiv.org/abs/2207.13198 The Generalized Multiplicative Gradient Method for A Class of Convex Optimization Problems Over Symmetric Cones]\n
 Renbo Zhao\n
 Submitted, Mar. 2026
-.[https://arxiv.org/abs/2508.07074 An Optimization Perspective on the Monotonicity of the Multiplicative Algorithm for Optimal Experimental Design]
-Renbo Zhao\n
-Minor revision, /Operations Research Letters/, Mar. 2026
-.[https://arxiv.org/abs/2504.03613 Dual Averaging With Non-Strongly-Convex Prox-Functions: New Analysis and Algorithm]
+. [https://arxiv.org/abs/2504.03613 Dual Averaging With Non-Strongly-Convex Prox-Functions: New Analysis and Algorithm]\n
 Renbo Zhao\n
 Submitted, Dec. 2025
 . [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617620 Dynamic Learning Policy for Multi-Warehouse Multi-Store Systems with Censored Demands]\n
@@ -22,9 +19,12 @@ Under revision, Sep. 2025
 
 
 == Journal Papers
+. [https://arxiv.org/abs/2508.07074 An Optimization Perspective on the Monotonicity of the Multiplicative Algorithm for Optimal Experimental Design]\n
+Renbo Zhao\n
+/Operations Research Letters/, minor revision, Mar. 2026
 . [https://arxiv.org/abs/2305.17808 An Away-Step Frank-Wolfe Method for Minimizing Logarithmically-Homogeneous Barriers]\n
 Renbo Zhao\n
-/Mathematics of Operations Research/, to appear, 2024
+/Mathematics of Operations Research/, Vol. 51, No. 1, 35 -- 59, 2026
 . [https://arxiv.org/abs/1711.03669 An Inexact Primal Dual Smoothing Framework for Large-Scale Non-Bilinear Saddle Point Problems]\n
 Le Thi Khanh Hien\*, Renbo Zhao\* and William B. Haskell\n
 /Journal of Optimization Theory and Applications/, Vol. 200, Pages 34 -- 67, 2024
